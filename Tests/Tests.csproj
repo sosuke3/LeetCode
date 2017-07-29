@@ -63,10 +63,14 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
-    <Compile Include="AddTwoNumbers\AddTwoNumbers.cs" />
+    <Compile Include="Add Two Numbers\AddTwoNumbers.cs" />
+    <Compile Include="Longest Palindrome Substring\LongestPalindrome.cs" />
+    <Compile Include="Longest Substring Without Repeating Characters\LengthOfLongestSubstring.cs" />
+    <Compile Include="Median of Two Sorted Arrays\FindMedianSortedArrays.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ReverseInteger\ReverseInteger.cs" />
-    <Compile Include="TwoSum\TwoSum.cs" />
+    <Compile Include="Reverse Integer\ReverseInteger.cs" />
+    <Compile Include="Two Sum\TwoSum.cs" />
+    <Compile Include="ZigZag Conversion\ZigZagConvert.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -77,12 +81,7 @@
       <Name>Problems</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="FindMedianSortedArrays\" />
-    <Folder Include="LengthOfLongestSubstring\" />
-    <Folder Include="LongestPalindrome\" />
-    <Folder Include="ZigZagConvert\" />
-  </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
