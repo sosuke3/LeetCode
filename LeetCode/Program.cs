@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LeetCode
 {
-    class Program
+    static class Program
     {
         static void Main(string[] args)
         {
@@ -14,7 +14,8 @@ namespace LeetCode
             //Console.WriteLine(Problems.AddTwoNumbers.Solution.Run());
             //Console.WriteLine(Problems.LengthOfLongestSubstring.Solution.Run());
             //Console.WriteLine(Problems.FindMedianSortedArrays.Solution.Run());
-            Console.WriteLine(Problems.LongestPalindrome.Solution.Run());
+            //Console.WriteLine(Problems.LongestPalindrome.Solution.Run());
+            Console.WriteLine(Problems.ZigZagConvert.Solution.Run());
         }
     }
 }
