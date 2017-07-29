@@ -46,8 +46,10 @@
     <Compile Include="Longest Palindrome Substring\LongestPalindrome.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reverse Integer\ReverseInteger.cs" />
+    <Compile Include="String to Integer %28atoi%29\MyAtoi.cs" />
     <Compile Include="Two Sum\TwoSum.cs" />
     <Compile Include="ZigZag Conversion\ZigZagConvert.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
