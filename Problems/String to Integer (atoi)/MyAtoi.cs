@@ -18,60 +18,30 @@ namespace Problems.StringToInteger
 
             long ret = 0;
             int sign = 1;
+            int i = 0;
 
-            if(s[0] == '-')
-            {
-                sign = -1;
-            }
-
-            int start = 0;
             if(s[0] == '-' || s[0] == '+')
             {
-                start = 1;
+                sign = (s[0] == '-') ? -1 : 1;
+                i++;
             }
 
-            try
+            while(i < s.Length && s[i] >= '0' && s[i] <= '9')
             {
-                for (int i = start; i < s.Length; i++)
+                ret = ret * 10 + (s[i] - '0');
+                i++;
+
+                if (ret * sign > Int32.MaxValue)
                 {
-                    ret = ret * 10 + CharToInt(s[i]);
+                    return Int32.MaxValue;
                 }
-            }
-            catch
-            {
-                return (int)ret * sign;
-            }
-
-            if(ret > Int32.MaxValue)
-            {
-                return 0;
-            }
-            if(ret < Int32.MinValue)
-            {
-                return 0;
+                if (ret * sign < Int32.MinValue)
+                {
+                    return Int32.MinValue;
+                }
             }
 
             return (int)ret * sign;
-        }
-
-        public static int CharToInt(char c)
-        {
-            switch(c)
-            {
-                case '1':
-                case '2':
-                case '3':
-                case '4':
-                case '5':
-                case '6':
-                case '7':
-                case '8':
-                case '9':
-                case '0':
-                    return c - 48;
-            }
-
-            throw new InvalidOperationException();
         }
     }
 }
