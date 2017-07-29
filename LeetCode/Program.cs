@@ -15,7 +15,8 @@ namespace LeetCode
             //Console.WriteLine(Problems.LengthOfLongestSubstring.Solution.Run());
             //Console.WriteLine(Problems.FindMedianSortedArrays.Solution.Run());
             //Console.WriteLine(Problems.LongestPalindrome.Solution.Run());
-            Console.WriteLine(Problems.ZigZagConvert.Solution.Run());
+            //Console.WriteLine(Problems.ZigZagConvert.Solution.Run());
+            Console.WriteLine(Problems.ReverseInteger.Solution.Run());
         }
     }
 }
