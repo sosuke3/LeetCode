@@ -12,7 +12,8 @@ namespace LeetCode
         {
             //Console.WriteLine(Problems.TwoSum.Solution.Run());
             //Console.WriteLine(Problems.AddTwoNumbers.Solution.Run());
-            Console.WriteLine(Problems.LengthOfLongestSubstring.Solution.Run());
+            //Console.WriteLine(Problems.LengthOfLongestSubstring.Solution.Run());
+            Console.WriteLine(Problems.FindMedianSortedArrays.Solution.Run());
         }
     }
 }
