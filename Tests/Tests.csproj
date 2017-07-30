@@ -68,6 +68,7 @@
     <Compile Include="Longest Substring Without Repeating Characters\LengthOfLongestSubstring.cs" />
     <Compile Include="Median of Two Sorted Arrays\FindMedianSortedArrays.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Regular Expression Matching\RegularExpressionMatching.cs" />
     <Compile Include="Reverse Integer\ReverseInteger.cs" />
     <Compile Include="String to Integer %28atoi%29\MyAtoi.cs" />
     <Compile Include="Two Sum\TwoSum.cs" />
