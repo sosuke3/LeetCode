@@ -86,35 +86,5 @@ namespace Problems.AddTwoNumbers
 
             return ret;
         }
-
-        public static string Run()
-        {
-            ListNode l1 = new ListNode(5);
-            ListNode l2 = new ListNode(5);
-
-            //ListNode l1 = new ListNode(2);
-            //ListNode l2 = new ListNode(5);
-
-            //l1.next = new ListNode(4);
-            //l2.next = new ListNode(6);
-
-            //l1.next.next = new ListNode(3);
-            //l2.next.next = new ListNode(4);
-
-            ListNode output = AddTwoNumbers(l1, l2);
-
-            return PrintNode(output);
-        }
-
-        public static string PrintNode(ListNode node)
-        {
-            string ret = node.val.ToString();
-            if(node.next != null)
-            {
-                ret += " -> ";
-                ret += PrintNode(node.next);
-            }
-            return ret;
-        }
     }
 }

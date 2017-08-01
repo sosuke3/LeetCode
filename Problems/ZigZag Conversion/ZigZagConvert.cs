@@ -46,13 +46,5 @@ namespace Problems.ZigZagConvert
             }
             return ret;
         }
-
-        public static string Run()
-        {
-            string s = "PAYPALISHIRING";
-            int numRows = 4;
-
-            return Convert(s, numRows);
-        }
     }
 }

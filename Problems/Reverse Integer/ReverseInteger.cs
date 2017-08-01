@@ -28,12 +28,5 @@ namespace Problems.ReverseInteger
 
             return ret;
         }
-
-        public static string Run()
-        {
-            int x = -1999999999;
-
-            return Reverse(x).ToString();
-        }
     }
 }

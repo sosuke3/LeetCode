@@ -71,16 +71,5 @@ namespace Problems.FindMedianSortedArrays
                 last = current;
             }
         }
-
-        public static string Run()
-        {
-            int[] nums1 = new int[] { 1, 3 };
-            int[] nums2 = new int[] { 2 };
-
-            //int[] nums1 = new int[] { 1, 2 };
-            //int[] nums2 = new int[] { 3, 4 };
-
-            return FindMedianSortedArrays(nums1, nums2).ToString();
-        }
     }
 }

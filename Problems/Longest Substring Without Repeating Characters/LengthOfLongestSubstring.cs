@@ -39,12 +39,5 @@ namespace Problems.LengthOfLongestSubstring
 
             return longestString.Length;
         }
-
-        public static string Run()
-        {
-            string input = "vvvv";
-
-            return LengthOfLongestSubstring(input).ToString();
-        }
     }
 }

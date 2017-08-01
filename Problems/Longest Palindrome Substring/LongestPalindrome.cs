@@ -69,17 +69,5 @@ namespace Problems.LongestPalindrome
 
             return s.Substring(startindex, endindex - startindex + 1);
         }
-
-        public static string Run()
-        {
-            var s = "babad";
-            //var s = "abababbabababaaaaaaaaaaaaaa";
-            //var s = "cbbd";
-            //var s = "aaabaaaa";
-            //var s = "a";
-            //var s = "abcda";
-
-            return LongestPalindrome(s);
-        }
     }
 }
