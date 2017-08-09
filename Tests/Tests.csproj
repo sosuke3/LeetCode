@@ -68,6 +68,7 @@
     <Compile Include="Longest Palindrome Substring\LongestPalindrome.cs" />
     <Compile Include="Longest Substring Without Repeating Characters\LengthOfLongestSubstring.cs" />
     <Compile Include="Median of Two Sorted Arrays\FindMedianSortedArrays.cs" />
+    <Compile Include="Merge Two Sorted Lists\MergeTwoSortedLists.cs" />
     <Compile Include="Palindrome Number\PalindromeNumber.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Regular Expression Matching\RegularExpressionMatching.cs" />
