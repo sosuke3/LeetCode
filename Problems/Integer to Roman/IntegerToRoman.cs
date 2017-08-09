@@ -32,6 +32,9 @@ namespace Problems.IntegerToRoman
 
         public static void BuildDigit(int digit, StringBuilder sb, string One, string Five, string Ten)
         {
+            // yes there is a better way to do this with hardcoded arrays
+            // I wanted to do this.
+
             if(digit >= 5 && digit < 9)
             {
                 sb.Append(Five);
