@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Add Two Numbers\AddTwoNumbers.cs" />
+    <Compile Include="Integer to Roman\IntegerToRoman.cs" />
     <Compile Include="Median of Two Sorted Arrays\FindMedianSortedArrays.cs" />
     <Compile Include="Longest Substring Without Repeating Characters\LengthOfLongestSubstring.cs" />
     <Compile Include="Longest Palindrome Substring\LongestPalindrome.cs" />
